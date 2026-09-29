@@ -1,0 +1,21 @@
+# environment / secrets
+.env*
+!.env.example
+
+# dependencies & build output
+node_modules/
+dist/
+build/
+out/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# browser tooling state
+.playwright-mcp/
